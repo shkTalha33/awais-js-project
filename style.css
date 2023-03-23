@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,103,1) 48%, rgba(0,212,255,1) 100%);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: auto;
+}
+
+.form-control{
+    border: 0px;
+    border-radius: 10px;
+    background-color: #14213d;
+    width: 30vw;
+    min-height: 70vh;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#naam{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    margin: 20px 0px 40px 0px;
+}
+
+input{
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    outline: 0px;
+    border: none;
+    background-color: #001d3d;
+    color: white;
+    margin: 0px 25px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+.icon{
+    color: white;
+    display: flex;
+}
+.set{
+    position: relative;
+    font-size: 20px;
+    right: 50px;
+    top: 12px;
+}
+#forgot{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: rgb(158, 140, 140);
+    margin-right: auto;
+    margin: 20px 0px;
+    padding-right: 20px;
+}
+#login{
+    height: 40px;
+    width: 80px;
+}
+@media screen and (max-width:1000px) {
+    .form-control{
+        min-width: 45vw;
+    }
+}
+@media screen and (max-width:700px) {
+    .form-control{
+        min-width: 50vw;
+    }
+}
+@media screen and (max-width:600px) {
+    .form-control{
+        min-width: 70vw;
+    }
+}
+@media screen and (max-width:400px) {
+    .form-control{
+        min-width: 80vw;
+    }
+}
+@media screen and (max-width:200px) {
+    .form-control{
+        min-width: 95vw;
+    }
+}
+

@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.set{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(146, 126, 126);
+}
+.wdt{
+    background-color: #22223b;
+    min-height: 93vh;
+}
+.name{
+    background-color:  #003049;
+}
+.area{
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #003049;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.city{
+    display: inline;
+    color: white;
+}
+.sett{
+    border-radius: 5px;
+    border: 1px solid rgb(146, 126, 126);
+}
+.out{
+    border: 1px solid rgb(146, 126, 126);
+    min-height: 126px;
+    border-radius: 5px;
+}
+.butt{
+    padding: 10px;
+    width: 80px;
+    border-radius: 10px;
+}
+.footer{
+    background-color: #003049;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    font-size: larger;
+}
+
